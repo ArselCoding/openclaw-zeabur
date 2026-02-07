@@ -1,0 +1,12 @@
+{
+  "name": "openclaw-zeabur",
+  "version": "1.0.0",
+  "description": "OpenClaw deployment on Zeabur with web dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "openclaw gateway --dev --allow-unconfigured"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}
